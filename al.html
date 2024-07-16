@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 26pt;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #000;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        @media (max-width: 768px) {
+            table, th, td {
+                display: block;
+                width: 100%;
+            }
+
+            th, td {
+                padding: 10px 5px;
+            }
+
+            tr {
+                margin-bottom: 10px;
+                border-bottom: 2px solid #000;
+            }
+
+            td {
+                text-align: right;
+                position: relative;
+            }
+
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 5px;
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="title">Action List for Campaign Preparation</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type of Data</th>
+                    <th>Paid Product</th>
+                    <th>Product to sell</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Type of Data">Area of expertise:<br>For: Target Audience</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Find the main topic and three sub topics.<br>For: 24 from 1</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Fill out your businesses:<br>For: Target Audience</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Your Interests and Expertise<br>For: Choose a product to sell</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">What you want to talk about:<br>For: Understand Your Audiences Biggest Pain Points and Desires</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">EXPLAIN YOUR GOALS<br>For: Generate Viral Content Ideas Using AI</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">WHO YOU ARE, WHAT CONTENT DO YOU CREATE, AND EXPLAIN TARGET AUDIENCE<br>For: Turn 1 Shitty Idea in 24 Viral Ideas</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Find Product & Biz Plan (25)</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Target Audience (4)</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Content Pillars (4)</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Pain Points & Desires (5)</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+                <tr>
+                    <td data-label="Type of Data">Content Ideas (6,8,9,10,12,blog)</td>
+                    <td data-label="Paid Product"></td>
+                    <td data-label="Product to sell"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
